@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Square extends Rectangle{
+    
+    // Methods
+    @Override
+    public double calculatePerimeter(){
+        return sides * length;
+    }
+
+    public void print(String what){
+        System.out.println("I'm a " + what);
+    }
+}
